@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "Novella Designer",
+    "description": "The title in the navbar"
+  },
+  "item.label.Tutorial": {
+    "message": "Гайды",
+    "description": "Navbar item with label Tutorial"
+  },
+  "item.label.Blog": {
+    "message": "Блог",
+    "description": "Блог Новеллы Дизайнера"
+  },
+  "item.label.Project Novella Designer": {
+    "message": "Проект Novella Designer",
+    "description": "Navbar item with label GitHub"
+  }
+}
