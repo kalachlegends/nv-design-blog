@@ -1,47 +1,48 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./styles.module.css";
+import Translate, { translate } from "@docusaurus/Translate";
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: translate({
+      message: "Create branches to branch out the plot",
+    }),
+    img: require("@site/static/img/tree-novella.png").default,
     description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
+      <Translate>
+        With the help of the novella Designer application, you can create many
+        branches of the plot development
+      </Translate>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: translate({ message: "Expandable editor" }),
+    img: require("@site/static/img/workspace.png").default,
     description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
+      <Translate>
+        With the help of the novella designer editor, you can create an event's
+        on each of the slides
+      </Translate>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: translate({ message: "Multi-Platform" }),
+    img: require("@site/static/img/linux.png").default,
     description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
+      <Translate>
+        Novels can be viewed on the computer and on the phone. So tin is the
+        desktop version of novella designer
+      </Translate>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ img, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
+    <div className={clsx("col col--4")}>
       <div className="text--center padding-horiz--md">
+        <img class={styles.img} src={img} />
         <h3>{title}</h3>
         <p>{description}</p>
       </div>

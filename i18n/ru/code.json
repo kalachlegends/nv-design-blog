@@ -269,5 +269,32 @@
   "theme.tags.tagsPageTitle": {
     "message": "Теги",
     "description": "The title of the tag list page"
+  },
+  "A new project to create plots with elections. ☺": {
+    "message": "Новый проект по созданию сюжетов с выборами. ☺"
+  },
+  "What is novella designer?": {
+    "message": "Что такое Новелла Дизайнер?"
+  },
+  "The project itself!": {
+    "message": "Сам проект"
+  },
+  "Create branches to branch out the plot": {
+    "message": "Создавайте ветви для расширения участка"
+  },
+  "With the help of the novella Designer application, you can create many branches of the plot development": {
+    "message": "С помощью приложения novella Designer вы можете создать множество ветвей развития сюжета"
+  },
+  "Expandable editor": {
+    "message": "Расширяемый редактор0"
+  },
+  "With the help of the novella designer editor, you can create an event's on each of the slides": {
+    "message": "С помощью редактора novella designer вы можете создать событие на каждом из слайдов"
+  },
+  "Multi-Platform": {
+    "message": "Мульти платформенность"
+  },
+  "Novels can be viewed on the computer and on the phone. So tin is the desktop version of novella designer": {
+    "message": "Новеллы можно смотреть на компьютере и на телефоне. Итак же есть настольная версия конструктора новелл."
   }
 }
